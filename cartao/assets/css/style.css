@@ -1,0 +1,59 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #425971;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo do cartão */
+  .card {
+    margin: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Imagem do perfil */
+  .card img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* Título */
+  .card h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Texto */
+  .card p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #666;
+    margin: 5px 0 15px;
+  }
+  
+  /* Botão/link */
+  .card a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #426d9c;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  
+  /* Efeito hover */
+  .card a:hover {
+    background-color: #023e8a;
+  }
